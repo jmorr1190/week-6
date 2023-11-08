@@ -40,6 +40,11 @@ let alphabetString = 'abcdefghijklmnopqrstuvwxyz';
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+const myArray = alphabetString.split(" ");
+
+
+
+
 
 
 
@@ -60,7 +65,9 @@ let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
  * ↓ YOUR CODE HERE ↓ */
 
 
-
+alphabetArray.sort();
+alphabetArray.reverse();
+       console.log(alphabetArray);
 
 
 
