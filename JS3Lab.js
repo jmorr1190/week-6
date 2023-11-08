@@ -89,6 +89,15 @@ let array1 = [1, 5, 6, 9, 10, 14];
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+console.log(array1);
+console.log(array1[2]);
+console.log(array1[array1.length-1]);
+
+/* woulld like to figure out to add these numerically to the array */
+
+array1.push(16, 3); 
+array1.sort();
+console.log(array1);
 
 
 
