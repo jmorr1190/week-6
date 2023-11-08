@@ -96,8 +96,13 @@ console.log(array1[array1.length-1]);
 /* woulld like to figure out to add these numerically to the array */
 
 array1.push(16, 3); 
-array1.sort();
+console.log(array1); 
+
+
+array1.sort(function(a, b){return a-b});
 console.log(array1);
+
+
 
 
 
