@@ -128,18 +128,25 @@ var myTodoList = [];
 myTodoList.push("laundry", "feed animals", "clean"); 
 console.log(myTodoList); 
 
-/*this is the removal of the second todo*/
+/*Step 3: this is the removal of the second todo*/
 
 myTodoList.splice(1, 1);
 console.log(myTodoList);
 
+/*Step 4: create your todolist and add 2 things*/
 var yourTodoList = [];
 
 yourTodoList.push("make the bed", "clean the bathroom");
 console.log(yourTodoList);
 
-myTodoList.push(... ourTodoList);
-console.log(myTodoList);
+/*Step 5 create our todo list with combining yours and mine*/
+
+var ourTodoList = [];
+
+var ourTodoList = myTodoList.concat(yourTodoList);
+console.log(ourTodoList); 
+
+
 
 
 
