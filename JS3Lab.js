@@ -123,7 +123,23 @@ Question 4: Todo List \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+var myTodoList = [];
 
+myTodoList.push("laundry", "feed animals", "clean"); 
+console.log(myTodoList); 
+
+/*this is the removal of the second todo*/
+
+myTodoList.splice(1, 1);
+console.log(myTodoList);
+
+var yourTodoList = [];
+
+yourTodoList.push("make the bed", "clean the bathroom");
+console.log(yourTodoList);
+
+myTodoList.push(... ourTodoList);
+console.log(myTodoList);
 
 
 
