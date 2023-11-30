@@ -100,7 +100,7 @@ console.log(array1[2]) //*step 5*//
 console.log(array1[7]) //* step 6. I was able to get the last element and yes it changed because I sorted the entire array*//
 
 
-/* here is the sort for the number array1*/
+
 
 
 
