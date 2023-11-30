@@ -42,6 +42,8 @@ let alphabetString = 'abcdefghijklmnopqrstuvwxyz';
 
 const myArray = alphabetString.split(" ");
 
+console.log(myArray);
+
 
 
 
@@ -65,9 +67,8 @@ let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
  * ↓ YOUR CODE HERE ↓ */
 
 
-alphabetArray.sort();
-alphabetArray.reverse();
-       console.log(alphabetArray);
+const reverse = alphabetArray.reverse();
+       console.log(reverse.join(''));
 
 
 
@@ -269,7 +270,16 @@ Question 8: removeElements \n`);
  * 
  * ↓ YOUR CODE HERE ↓ */
 
+let amount= 100
 
+
+     /*** DO NOT CHANGE THE CODE ABOVE ***/
+     
+     // WRITE YOUR CODE HERE
+     
+     
+     var totalBill = amount * .2
+     console.log(tip)
 
 
 
