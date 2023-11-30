@@ -92,16 +92,16 @@ let array1 = [1, 5, 6, 9, 10, 14];
 
 console.log(array1);
 console.log(array1[2]);
-console.log(array1[array1.length-1]);
+console.log(array1[array1.length-1]); //*this is step 3*// 
+array1.push(16, 3); //*step 4*// 
+array1.sort(function(a, b){return a-b});
+console.log(array1); //* also step 4*// 
+console.log(array1[2]) //*step 5*//
+console.log(array1[7]) //* step 6. I was able to get the last element and yes it changed because I sorted the entire array*//
 
-
-
-array1.push(16, 3); 
-console.log(array1); 
 
 /* here is the sort for the number array1*/
-array1.sort(function(a, b){return a-b});
-console.log(array1);
+
 
 
 
